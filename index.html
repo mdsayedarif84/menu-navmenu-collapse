@@ -85,7 +85,6 @@
             <h2> The nature is creator of allah</h2>
           </div>
         </div>
-
 <!--        <h1> slider with button tag</h1>-->
 
 <!--        <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev" >-->
@@ -98,7 +97,6 @@
 <!--        </button>-->
 
 <!--        Slider with anchor tag-->
-
         <a href="#mainSlider" class="carousel-control-prev"  data-bs-slide="prev" >
           <span class="carousel-control-prev-icon"></span>
         </a>
@@ -107,10 +105,79 @@
         </a>
       </div>
     </div>
-
 <!--  carousel div end-->
+<!--  Card section start-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card">
+          <img src="images/index.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h1 class="card-title"> this card body</h1>
+            <p class="card-text"> this card body.plese writing here</p>
+            <a href="" class="btn btn-dark">Click More.....</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <img src="images/images.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h1 class="card-title"> this card body</h1>
+            <p class="card-text"> this card body.plese writing here</p>
+            <a href="" class="btn btn-dark">Click More.....</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <img src="images/index.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h1 class="card-title"> this card body</h1>
+            <p class="card-text"> this card body.plese writing here</p>
+            <a href="" class="btn btn-dark">Click More.....</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card">
+          <img src="images/index.jpg" alt="" class="card-img-top">
+          <div class="card-body">
+            <h1 class="card-title"> this card body</h1>
+            <p class="card-text"> this card body.plese writing here</p>
+            <a href="" class="btn btn-dark">Click More.....</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Card section end-->
+<!--  Section Start-->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="carousel slide" data-bs-ride="carousel" data-bs-interval="1000">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h3>This is heading of something</h3>
+                <h3>This is heading of something</h3>
+              </div>
+              <div class="carousel-item">
+                <h3>This is heading of something</h3>
+                <h3>This is heading of something</h3>
+              </div>
+              <div class="carousel-item">
+                <h3>This is heading of something</h3>
+                <h3>This is heading of something</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 <!--  Modal tag is start-->
-
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
@@ -126,14 +193,14 @@
                 <form action="" method="post">
                   <div class="form-group">
                     <label for="userName">User Name Or Email</label>
-                    <input type="text" name="user_name" id="userName" class="form-control">
+                    <input type="text" placeholder="User Name OR Email" name="user_name" id="userName" class="form-control">
                   </div>
                   <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" id="password" name="password" class="form-control">
+                    <input type="password" placeholder="Password" id="password" name="password" class="form-control">
                   </div>
                   <div class="d-grid gap-2 col-12 mx-auto">
-                    <button value="submit" class="btn btn-primary" type="submit">Submit</button>
+                    <button value="submit" class="btn btn-outline-success" type="submit">Submit</button>
                   </div>
                 </form>
               </div>
@@ -162,12 +229,8 @@
                 <!--                sign form for modal-->
                 <form action="" method="post">
                   <div class="form-group">
-                    <label for="firstName">First Name</label>
-                    <input type="text" name="first_name" id="firstName" class="form-control">
-                  </div>
-                  <div class="form-group">
-                    <label>Last Name</label>
-                    <input type="text" name="last_name" class="form-control">
+                    <label>Full Name</label>
+                    <input type="text" name="full_name" class="form-control">
                   </div>
                   <div class="form-group">
                     <label>Email Address</label>
@@ -178,43 +241,8 @@
                     <input type="password" name="password" class="form-control">
                   </div>
                   <div class="form-group">
-                    <label>Phone Number</label>
-                    <input type="number" name="phone" class="form-control">
-                  </div>
-                  <div class="form-group">
-                    <label>Date of Birth</label>
-                    <input type="date" name="date_of_bith" class="form-control">
-                  </div>
-                  <div class="form-group">
-                    <label><input type="radio" name="gender" value="male" lue="male">Male</label>
-                    <label><input type="radio" name="gender" value="female">Female</label>
-                  </div>
-                  <div class="form-group">
-                    <label>Address</label>
-                    <textarea name="address" class="form-control" rows="5"></textarea>
-                  </div>
-                  <div class="form-group">
-                    <label>Distirc Name</label>
-                    <select  name="district_name" class="form-control">
-                      <option>---Select Distirct Name</option>
-                      <option value="Dhaka">Dhaka</option>
-                      <option value="Noakhali">Nokhali</option>
-                      <option value="Comilla">Comilla</option>
-                      <option value="Narayanganj">Narayanganj</option>
-                      <option value="Barisal">Barisal</option>
-                      <option value="Rangpur">Rangpur</option>
-                      <option value="Rajshai">Dhaka</option>
-                    </select>
-                  </div>
-                  <div class="form-group ">
-                    <label>Image</label>
-                    <input type="file" name="image"  multiple accept="image/*"/>
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input type="checkbox" name="agree" class="form-check-input">
-                      I am agree with ur all condition.
-                    </label>
+                    <label>Confirm Password</label>
+                    <input type="password" name="confirm_password" class="form-control">
                   </div>
                   <div class="d-grid gap-2 col-12 mx-auto">
                     <button value="submit" class="btn btn-primary" type="submit">Submit</button>
